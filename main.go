@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"os"
 
 	"github.com/sabirakina-won-github-sabwon09/tic-tac-toe-arena/internal/cli"
+	"github.com/sabirakina-won-github-sabwon09/tic-tac-toe-arena/internal/game"
 )
 
 func main() {
@@ -20,6 +20,5 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println("Configuration accepted:")
-	fmt.Printf("%+v\n", config)
+	game.Start(config)
 }
