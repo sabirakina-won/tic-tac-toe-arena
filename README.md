@@ -1,5 +1,4 @@
 # tic-tac-toe-arena
-# tic-tac-toe-arenа
 
 
 A terminal tic-tac-toe game written in Go.
